@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24carrots</title>
+    <style>
+        @import url(style.css);
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="navi">
+                <a herf="">ABOUT</a>
+                <a herf="">SERVICE</a>
+                <a herf="">EVENT</a>
+            </div>
+            <div class="logo">24CARROTS</div>
+            <div class="navi">
+                <a herf="">VENUE</a>
+                <a herf="">CAREERS</c>
+                    <button>GET IN TOUCH</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="content">
+        <video src="patty.mp4" muted autoplay loop></video>
+        <h1>Simply the Finest</h1>
+    </div>
+
+
+    </div>
+<div class="container">  
+     <div class="image-box" id="image-box">
+        <img src="img1.jpg" alt="Image 1" class="image" id="image">
+    </div>
+</div>
+   
+
+    <script>
+        const images = ['img1.jpg', 'img2.jpg', 'img3.jpg', 'img4.jpg'];
+        let currentIndex = 0;
+
+        const imageElement = document.getElementById('image');
+        const imageBox = document.getElementById('image-box');
+
+        imageBox.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % images.length;
+            const nextImage = images[currentIndex];
+            imageElement.src = nextImage;
+        });
+
+
+        setInterval(() => {
+            currentIndex = (currentIndex + 1) % images.length;
+            const nextImage = images[currentIndex];
+            imageElement.src = nextImage;
+        }, 2000); 
+    </script>
+    </div>
+
+    <div class="context">`
+        <h3>WELCOME TO 24 CARROTS</h3>
+        <h2>Remarkable Catering & Events</h2>
+        <h4>24 Carrots is the premier catering and events
+            company of choice in Southern California.
+            We create remarkable
+            experiences by offering the finest quality foods and
+            providing unsurpassed personalized service,
+            driven by
+            our passion for life’s special occasions.</h4>
+        <button>Get In touch</button>
+    </div>
+
+   
+    <div class="context">`
+
+        <h2>Making Every Experience Magical</h2>
+        <h4>24 Carrots is the premier catering and events
+            company of choice in Southern California.
+            We create remarkable
+            experiences by offering the finest quality foods and
+            providing unsurpassed personalized service,
+            driven by
+            our passion for life’s special occasions.</h4>
+        <button>Get In touch</button>
+    </div>
+
+        <img class="wedd" src="wed1.jpg" alt="">
+    
+        <footer>
+            <div class="footer-container">
+              <div class="footer-section">
+                <h3>About</h3>
+                <ul>
+                  <li>About Company</li>
+                  <li>Meet the Team</li>
+                  <li>Awards</li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                  <li>Bar Service</li>
+                  <li>Staffing</li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <h3>Events</h3>
+                <ul>
+                  <li>Wedding</li>
+                  <li>Corporate</li>
+                  <li>Social</li>
+                  <li>Gallery</li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <h3>Venues</h3>
+                <ul>
+                  <li>Career</li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <h3>Follow Us</h3>
+                <ul>
+                  <li>Social Media</li>
+                </ul>
+              </div>
+            </div>
+            <div class="copyright">
+              <p>&copy; 2023-2024 All rights reserved</p>
+            </div>
+          </footer>
+
+
+</body>
+
+
+</html>
